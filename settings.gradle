@@ -1,0 +1,2 @@
+rootProject.name='Alpine Skiing 2020 Season'
+include ':app'

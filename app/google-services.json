@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "834748339330",
+    "firebase_url": "https://alpineski2020.firebaseio.com",
+    "project_id": "alpineski2020",
+    "storage_bucket": "alpineski2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834748339330:android:532b4da2168b624932909b",
+        "android_client_info": {
+          "package_name": "com.example.alpineskiing2020season"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834748339330-sqkbi24o23u0l1gbv9e0me0jojt08l8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPT9rhj40wlI_y5b0fndhCbY0_irYTV4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834748339330-sqkbi24o23u0l1gbv9e0me0jojt08l8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

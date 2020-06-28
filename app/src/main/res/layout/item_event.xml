@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    
+    <data>
+        <variable
+            name="itemEvent"
+            type="com.example.alpineskiing2020season.data.model.Event"/>
+        
+    </data>
+    
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/events_item_iv_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/header_event_item"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+
+                <TextView
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/events_item_iv_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:text="@{itemEvent.date}"
+                    tools:text="26-27 Oct 2019"
+                    android:textColor="@color/colorWhite"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            
+            <LinearLayout
+                android:layout_marginTop="26dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    app:bindFlagImage="@{itemEvent}"
+                    tools:src="@drawable/image_placeholder_flag"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:text="@{itemEvent.location}"
+                    tools:text="Soelden, AUT"
+                    android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@{itemEvent.discipline}"
+                    android:textStyle="bold"
+                    tools:text="GS"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:text="@{itemEvent.type}"
+                    tools:text="WC"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="11dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/event_tv_women"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:visibility="@{itemEvent.women}"
+                    android:text="Women"
+                    android:textColor="#DC78FF"/>
+
+
+                <TextView
+                    android:id="@+id/event_tv_men"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:visibility="@{itemEvent.men}"
+                    android:text="Men"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</layout>
