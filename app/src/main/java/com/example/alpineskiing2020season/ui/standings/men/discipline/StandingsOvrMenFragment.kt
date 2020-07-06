@@ -54,10 +54,10 @@ class StandingsOvrMenFragment : Fragment(R.layout.standings_recycler_view_fragme
             standingsRecyclerAdapter.notifyDataSetChanged()
 
             if (standingsRecyclerAdapter.currentList.isEmpty())
-                handler.postDelayed(runnable,2000)
+                handler.postDelayed(runnable, 1000)
         }
 
-        handler.postDelayed(runnable, 2000)
+        handler.postDelayed(runnable, 1000)
     }
 
     override fun onPause() {

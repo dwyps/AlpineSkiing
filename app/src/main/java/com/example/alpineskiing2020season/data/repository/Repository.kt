@@ -1,5 +1,6 @@
 package com.example.alpineskiing2020season.data.repository
 
+import android.util.Log
 import com.example.alpineskiing2020season.data.model.Country
 import com.example.alpineskiing2020season.data.model.Event
 import com.example.alpineskiing2020season.data.model.Racer
@@ -47,6 +48,8 @@ class Repository {
 
                     snapshot.children.forEach {
 
+                        Log.e("Racer", "1")
+
                         ovrMen.add(
                             Racer(
                                 Country(
@@ -62,6 +65,8 @@ class Repository {
                             )
                         )
                     }
+
+                    Log.e("Racer", ovrMen.size.toString())
                 }
 
                 override fun onCancelled(error: DatabaseError) {
