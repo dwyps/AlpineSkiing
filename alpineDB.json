@@ -6,7 +6,11 @@
             "name": "Aleksander",
             "lastName": "Aamodt Kilde",
             "id": "0001",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 1202,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/137380.html"
         },
@@ -15,7 +19,11 @@
             "name": "Alexis",
             "lastName": "Pinturault",
             "id": "0002",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 1148,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/127048.html"
         },
@@ -24,7 +32,11 @@
             "name": "Henrik",
             "lastName": "Kristoffersen",
             "id":"0003",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 1041,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/154950.html"
         },
@@ -33,7 +45,11 @@
             "name": "Matthias",
             "lastName": "Mayer",
             "id":"0004",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 916,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/117803.html"
         },
@@ -42,7 +58,11 @@
             "name": "Vincent",
             "lastName": "Kriechmayr",
             "id": "0005",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 794,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/126472.html"
         },
@@ -51,7 +71,11 @@
             "name": "Beat",
             "lastName": "Feuz",
             "id": "0006",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 792,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/82015.html"
         },
@@ -60,7 +84,11 @@
             "name": "Mauro",
             "lastName": "Caviezel",
             "id": "0007",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 669,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/94491.html"
         },
@@ -69,7 +97,11 @@
             "name": "Kjetil",
             "lastName": "Jansrud",
             "id": "0008",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 665,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/27657.html"
         },
@@ -78,7 +110,11 @@
             "name": "Thomas",
             "lastName": "Dressen",
             "id": "0009",
-            "country": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+                "abbr": "GER"
+            },
             "points": 602,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/146460.html"
         },
@@ -87,7 +123,11 @@
             "name": "Loic",
             "lastName": "Meillard",
             "id": "0010",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 579,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/174158.html"
         }
@@ -100,7 +140,11 @@
             "name": "Federica",
             "lastName": "Brignone",
             "id": "0011",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 1378,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/118379.html"
         },
@@ -109,7 +153,11 @@
             "name": "Mikaela",
             "lastName": "Shiffrin",
             "id": "0012",
-            "country": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+                "abbr": "USA"
+            },
             "points": 1225,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/164835.html"
         },
@@ -118,7 +166,11 @@
             "name": "Petra",
             "lastName": "Vlhova",
             "id": "0013",
-            "country": "https://cdn.countryflags.com/thumbs/slovakia/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/slovakia/flag-square-500.png",
+                "abbr": "SVK"
+            },
             "points": 1189,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/168809.html"
         },
@@ -127,7 +179,11 @@
             "name": "Corinne",
             "lastName": "Suter",
             "id": "0014",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 837,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/156381.html"
         },
@@ -136,7 +192,11 @@
             "name": "Marta",
             "lastName": "Bassino",
             "id": "0015",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 817,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/173830.html"
         },
@@ -145,7 +205,11 @@
             "name": "Wendy",
             "lastName": "Holdener",
             "id": "0016",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 791,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/148331.html"
         },
@@ -154,7 +218,11 @@
             "name": "Lara",
             "lastName": "Gut-Behrami",
             "id": "0017",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 616,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/125871.html"
         },
@@ -163,7 +231,11 @@
             "name": "Michelle",
             "lastName": "Gisin",
             "id": "0018",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 591,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/149811.html"
         },
@@ -172,7 +244,11 @@
             "name": "Viktoria",
             "lastName": "Rebensburg",
             "id": "0019",
-            "country": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+                "abbr": "GER"
+            },
             "points": 556,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/104502.html"
         },
@@ -181,7 +257,11 @@
             "name": "Ester",
             "lastName": "Ledecka",
             "id": "0029",
-            "country": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-500.png",
+                "abbr": "CZR"
+            },
             "points": 503,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/163809.html"
         }
@@ -193,7 +273,11 @@
             "name": "Henrik",
             "lastName": "Kristoffersen",
             "id": "0003",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 394,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/154950.html"
         },
@@ -202,7 +286,11 @@
             "name": "Alexis",
             "lastName": "Pinturault",
             "id": "0002",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 388,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/127048.html"
         },
@@ -211,7 +299,11 @@
             "name": "Filip",
             "lastName": "Zubcic",
             "id": "0020",
-            "country": "https://cdn.countryflags.com/thumbs/croatia/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/croatia/flag-square-500.png",
+                "abbr": "CRO"
+            },
             "points": 368,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/146641.html"
         },
@@ -220,7 +312,11 @@
             "name": "Zan",
             "lastName": "Kranjec",
             "id": "0021",
-            "country": "https://cdn.countryflags.com/thumbs/slovenia/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/slovenia/flag-square-500.png",
+                "abbr": "SLO"
+            },
             "points": 364,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/137306.html"
         },
@@ -229,7 +325,11 @@
             "name": "Tommy",
             "lastName": "Ford",
             "id": "0022",
-            "country": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+                "abbr": "USA"
+            },
             "points": 267,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/105908.html"
         },
@@ -238,7 +338,11 @@
             "name": "Leif Kristian",
             "lastName": "Haugen",
             "id": "0023",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 249,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/81859.html"
         },
@@ -247,7 +351,11 @@
             "name": "Mathieu",
             "lastName": "Faivre",
             "id": "0024",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 225,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/135985.html"
         },
@@ -256,7 +364,11 @@
             "name": "Aleksander",
             "lastName": "Aamodt Kilde",
             "id": "0001",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 225,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/137380.html"
         },
@@ -265,7 +377,11 @@
             "name": "Marco",
             "lastName": "Odermatt",
             "id": "0025",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 211,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/190231.html"
         },
@@ -274,7 +390,11 @@
             "name": "Victor",
             "lastName": "Muffat-Jeandet",
             "id": "0026",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 191,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/108784.html"
         }
@@ -286,7 +406,11 @@
             "name": "Federica",
             "lastName": "Brignone",
             "id": "0011",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 407,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/118379.html"
         },
@@ -295,7 +419,11 @@
             "name": "Petra",
             "lastName": "Vlhova",
             "id": "0013",
-            "country": "https://cdn.countryflags.com/thumbs/slovakia/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/slovakia/flag-square-500.png",
+                "abbr": "SVK"
+            },
             "points": 333,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/168809.html"
         },
@@ -304,7 +432,11 @@
             "name": "Mikaela",
             "lastName": "Shiffrin",
             "id": "0012",
-            "country": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+                "abbr": "USA"
+            },
             "points": 314,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/164835.html"
         },
@@ -313,7 +445,11 @@
             "name": "Marta",
             "lastName": "Bassino",
             "id": "0015",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 309,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/173830.html"
         },
@@ -322,7 +458,11 @@
             "name": "Alice",
             "lastName": "Robinson",
             "id": "0027",
-            "country": "https://cdn.countryflags.com/thumbs/new-zealand/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/new-zealand/flag-square-500.png",
+                "abbr": "NZL"
+            },
             "points": 300,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/221779.html"
         },
@@ -331,7 +471,11 @@
             "name": "Wendy",
             "lastName": "Holdener",
             "id": "0016",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 234,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/148331.html"
         },
@@ -340,7 +484,11 @@
             "name": "Mina",
             "lastName": "Holtmann",
             "id": "0028",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 212,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/165800.html"
         },
@@ -349,7 +497,11 @@
             "name": "Tessa",
             "lastName": "Worley",
             "id": "0029",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 190,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/108666.html"
         },
@@ -358,7 +510,11 @@
             "name": "Meta",
             "lastName": "Hrovat",
             "id": "0030",
-            "country": "https://cdn.countryflags.com/thumbs/slovenia/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/slovenia/flag-square-500.png",
+                "abbr": "SLO"
+            },
             "points": 168,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/195113.html"
         },
@@ -367,7 +523,11 @@
             "name": "Viktoria",
             "lastName": "Rebensburg",
             "id": "0019",
-            "country": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+                "abbr": "GER"
+            },
             "points": 160,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/104502.html"
         }
@@ -380,7 +540,11 @@
             "name": "Beat",
             "lastName": "Feuz",
             "id": "0006",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 650,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/82015.html"
         },
@@ -389,7 +553,11 @@
             "name": "Thomas",
             "lastName": "Dressen",
             "id": "0009",
-            "country": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+                "abbr": "GER"
+            },
             "points": 438,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/146460.html"
         },
@@ -398,7 +566,11 @@
             "name": "Matthias",
             "lastName": "Mayer",
             "id":"0004",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 424,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/117803.html"
         },
@@ -407,7 +579,11 @@
             "name": "Aleksander",
             "lastName": "Aamodt Kilde",
             "id": "0001",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 413,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/137380.html"
         },
@@ -416,7 +592,11 @@
             "name": "Dominik",
             "lastName": "Paris",
             "id": "0031",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 384,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/109079.html"
         },
@@ -425,7 +605,11 @@
             "name": "Vincent",
             "lastName": "Kriechmayr",
             "id": "0005",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 362,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/126472.html"
         },
@@ -434,7 +618,11 @@
             "name": "Johan",
             "lastName": "Clarey",
             "id": "0032",
-            "country": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-500.png",
+                "abbr": "FRA"
+            },
             "points": 316,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/10394.html"
         },
@@ -443,7 +631,11 @@
             "name": "Carlo",
             "lastName": "Janka",
             "id":"0033",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 259,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/70282.html"
         },
@@ -452,7 +644,11 @@
             "name": "Kjetil",
             "lastName": "Jansrud",
             "id": "0008",
-            "country": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/norway/flag-square-500.png",
+                "abbr": "NOR"
+            },
             "points": 248,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/27657.html"
         },
@@ -461,7 +657,11 @@
             "name": "Mauro",
             "lastName": "Caviezel",
             "id": "0007",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 220,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/94491.html"
         }
@@ -473,7 +673,11 @@
             "name": "Corinne",
             "lastName": "Suter",
             "id": "0014",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 477,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/156381.html"
         },
@@ -482,7 +686,11 @@
             "name": "Ester",
             "lastName": "Ledecka",
             "id": "0029",
-            "country": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-500.png",
+                "abbr": "CZR"
+            },
             "points": 322,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/163809.html"
         },
@@ -491,7 +699,11 @@
             "name": "Federica",
             "lastName": "Brignone",
             "id": "0011",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 320,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/118379.html"
         },
@@ -500,7 +712,11 @@
             "name": "Lara",
             "lastName": "Gut-Behrami",
             "id": "0017",
-            "country": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/switzerland/flag-square-500.png",
+                "abbr": "SUI"
+            },
             "points": 288,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/125871.html"
         },
@@ -509,7 +725,11 @@
             "name": "Mikaela",
             "lastName": "Shiffrin",
             "id": "0012",
-            "country": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+                "abbr": "USA"
+            },
             "points": 256,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/164835.html"
         },
@@ -519,7 +739,11 @@
             "name": "Elena",
             "lastName": "Curtoni",
             "id": "0034",
-            "country": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-500.png",
+                "abbr": "ITA"
+            },
             "points": 246,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/129653.html"
         },
@@ -528,7 +752,11 @@
             "name": "Stephanie",
             "lastName": "Venier",
             "id": "0035",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 233,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/149509.html"
         },
@@ -537,7 +765,11 @@
             "name": "Nina",
             "lastName": "Ortlieb",
             "id": "0036",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 233,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/176109.html"
         },
@@ -546,7 +778,11 @@
             "name": "Nicole",
             "lastName": "Schmidhofer",
             "id": "0037",
-            "country": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+                "abbr": "AUT"
+            },
             "points": 228,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/106298.html"
         },
@@ -555,9 +791,63 @@
             "name": "Viktoria",
             "lastName": "Rebensburg",
             "id": "0019",
-            "country": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+            "country":
+            {
+                "flag": "https://cdn.countryflags.com/thumbs/germany/flag-square-500.png",
+                "abbr": "GER"
+            },
             "points": 211,
             "image": "https://data.fis-ski.com/general/load-competitor-picture/104502.html"
         }
+    ],
+
+    "event":
+    [
+        {
+            "date": "26-27 Oct",
+            "flag": "https://cdn.countryflags.com/thumbs/austria/flag-square-500.png",
+            "location": "Soelden",
+            "discipline": "GS",
+            "type": "WC",
+            "women": true,
+            "men": true
+        },
+        {
+            "date": "23-24 Nov",
+            "flag": "https://cdn.countryflags.com/thumbs/finland/flag-square-500.png",
+            "location": "Levi",
+            "discipline": "SL",
+            "type": "WC",
+            "women": true,
+            "men": true
+        },
+        {
+            "date": "27 Nov-01 Dec",
+            "flag": "https://cdn.countryflags.com/thumbs/canada/flag-square-500.png",
+            "location": "Lake Louise",
+            "discipline": "DH-SG",
+            "type": "TRA-WC",
+            "women": false,
+            "men": true
+        },
+        {
+            "date": "30 Nov-01 Dec",
+            "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "location": "Killington",
+            "discipline": "GS-SL",
+            "type": "WC",
+            "women": true,
+            "men": false
+        },
+        {
+            "date": "03-08 Dec",
+            "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-square-500.png",
+            "location": "Beaver Creek",
+            "discipline": "DH-SG-GS",
+            "type": "TRA-WC",
+            "women": false,
+            "men": true
+        }
+
     ]
 }

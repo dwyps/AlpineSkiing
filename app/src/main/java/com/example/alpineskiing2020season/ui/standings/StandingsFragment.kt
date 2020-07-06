@@ -1,12 +1,8 @@
 package com.example.alpineskiing2020season.ui.standings
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.FragmentPagerAdapter
 import com.example.alpineskiing2020season.R
 import com.example.alpineskiing2020season.ui.standings.adapters.StandingsTabGenderAdapter
 import com.google.android.material.tabs.TabLayoutMediator
@@ -20,7 +16,6 @@ class StandingsFragment : Fragment(R.layout.standings_fragment) {
         super.onViewCreated(view, savedInstanceState)
 
         initViewPager()
-
     }
 
     private fun initViewPager() {

@@ -9,6 +9,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.example.alpineskiing2020season.R
 import com.example.alpineskiing2020season.data.model.Event
 import com.example.alpineskiing2020season.data.model.Racer
+import com.example.alpineskiing2020season.data.model.Record
 
 @BindingAdapter("bindRacerImage")
 fun imageBindRacer(imgView: ImageView, racer: Racer) {
@@ -25,7 +26,6 @@ fun imageBindRacer(imgView: ImageView, racer: Racer) {
                     .error(R.drawable.placeholder_image)
             )
             .into(imgView)
-
     }
 }
 
@@ -54,6 +54,22 @@ fun eventImageBindFlag(imgView: ImageView, event: Event) {
         Glide.with(imgView.context)
             .asBitmap()
             .load(event.flag)
+            .apply(
+                RequestOptions()
+                    .placeholder(R.drawable.placeholder_image)
+                    .error(R.drawable.placeholder_image)
+            )
+            .into(imgView)
+    }
+}
+
+@BindingAdapter("bindRecordImage")
+fun recordImageBind(imgView: ImageView, record: Record) {
+
+    record.let {
+
+        Glide.with(imgView.context)
+            .load(record.thumbnail)
             .apply(
                 RequestOptions()
                     .placeholder(R.drawable.placeholder_image)

@@ -12,31 +12,39 @@
         
     </data>
 
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/item_racer_tv_place"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@{itemRacer.place}"
         tools:text="1."
-        android:textSize="16sp"
-        android:layout_gravity="center"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/item_racer_iv_racer_photo"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_racer_tv_place"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:bindRacerImage="@{itemRacer}"
-        tools:src="@drawable/image_placeholder"/>
+        tools:src="@drawable/image_placeholder" />
 
     <LinearLayout
-        android:layout_gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/item_racer_iv_racer_photo"
+        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="10dp"
         android:orientation="vertical"
         android:layout_width="wrap_content"
@@ -63,20 +71,25 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_gravity="center_vertical"
-        android:layout_marginStart="20dp"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:id="@+id/item_racer_iv_flag"
+        android:layout_width="24dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="10dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/item_racer_tv_abbr"
         app:bindFlagImage="@{itemRacer}"
         tools:src="@drawable/image_placeholder_flag"
-        android:scaleType="centerCrop"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/item_racer_tv_abbr"
+        android:layout_marginEnd="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/item_racer_tv_points"
+        app:layout_constraintTop_toTopOf="parent"
         android:text="@{itemRacer.country.abbr}"
         android:textColor="@color/colorAccent"
         android:textSize="16sp"
@@ -84,15 +97,18 @@
         tools:text="RUS" />
 
     <TextView
+        android:id="@+id/item_racer_tv_points"
         android:layout_marginEnd="10dp"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:textAlignment="center"
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
         app:bindPoints="@{itemRacer}"
         tools:text="1378"
         android:textSize="16sp"
-        android:layout_gravity="center"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -5,4 +5,5 @@
     <color name="colorAccent">#001F8D</color>
     <color name="colorBlack">#000000</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="recordsItem">#f8f8ff</color>
 </resources>

@@ -1,18 +1,16 @@
-package com.example.alpineskiing2020season.ui.standings
+package com.example.alpineskiing2020season.ui.standings.men
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.alpineskiing2020season.R
-import com.example.alpineskiing2020season.ui.standings.adapters.StandingsTabDisciplineAdapter
-import com.example.alpineskiing2020season.ui.standings.adapters.StandingsTabGenderAdapter
+import com.example.alpineskiing2020season.ui.standings.adapters.StandingsTabDisciplineMenAdapter
 import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.android.synthetic.main.standings_fragment.*
 import kotlinx.android.synthetic.main.standings_view_pager_fragment.*
 
-class StandingsGenderFragment : Fragment(R.layout.standings_view_pager_fragment) {
+class StandingsMenFragment : Fragment(R.layout.standings_view_pager_fragment) {
 
-    private lateinit var viewPagerAdapter: StandingsTabDisciplineAdapter
+    private lateinit var viewPagerAdapter: StandingsTabDisciplineMenAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -23,7 +21,7 @@ class StandingsGenderFragment : Fragment(R.layout.standings_view_pager_fragment)
 
     private fun initViewPager() {
 
-        viewPagerAdapter = StandingsTabDisciplineAdapter(this)
+        viewPagerAdapter = StandingsTabDisciplineMenAdapter(this)
 
         standings_view_pager_smaller.apply {
             adapter = viewPagerAdapter
@@ -50,5 +48,4 @@ class StandingsGenderFragment : Fragment(R.layout.standings_view_pager_fragment)
 
         }.attach()
     }
-
 }

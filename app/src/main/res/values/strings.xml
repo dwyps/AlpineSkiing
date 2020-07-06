@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Alpine Skiing 2020 Season</string>
+    <string name="mostWinsSeason">Most wins in single season\nIn men\'s competition 3 skiers are sharing number of most wins (13) in single season: Ingerman Stenmark, Marcel Hirscher and Herman Maier. In women\'s competition, Mikaela Shiffrin has incredible 17 wins in single season.</string>
+    <string name="mostWinsEver">Most race wins\nMost successful racers in alpine skiing are Ingerman Stenmark with 86 wins and Lindsey Vonn with 82 .The only skier who has any chance in passing both this amazing skiers is 25 year old Mikaela Shiffrin with 66 wins.</string>
+    <string name="overallTitles">Overall titles\nAnnemarie Moser-Pröll won big crystal globe 6 times in her career, while Marcel Hirscher won it 8 times.</string>
+    <string name="winsByCountry">World Cup winners by country\nAustria is the best alpine skiing country with 527 wins in men\'s competition and 381 wins in women\'s competition. But Austria is slowly losing their power with Switzerland being right behind them.</string>
+    <string name="olympicMedals">Alpine skiing Olympic medal leaders\nIn men\'s competition with 8 Olympic medals,leader is Kjetil André Aamodt. In women\'s competition Janica Kostelic and Anja Paerson are sharing 1st place with 6 medals.</string>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/head_standings"
+        android:src="@drawable/header_standings"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -30,8 +30,7 @@
     <LinearLayout
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="vertical"
-        android:layout_marginTop="30dp"
-        app:layout_constraintTop_toBottomOf="@+id/standings_tv_title"
+        app:layout_constraintTop_toBottomOf="@+id/standings_iv_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

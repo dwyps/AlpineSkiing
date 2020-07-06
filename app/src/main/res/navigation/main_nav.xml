@@ -9,7 +9,8 @@
         android:id="@+id/standingsFragment"
         android:name="com.example.alpineskiing2020season.ui.standings.StandingsFragment"
         android:label="standings_fragment"
-        tools:layout="@layout/standings_fragment" />
+        tools:layout="@layout/standings_fragment" >
+    </fragment>
     <fragment
         android:id="@+id/eventsFragment"
         android:name="com.example.alpineskiing2020season.ui.events.EventsFragment"

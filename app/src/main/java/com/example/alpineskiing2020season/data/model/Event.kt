@@ -4,7 +4,7 @@ import java.net.URL
 
 data class Event (
     val date: String,
-    val flag: URL,
+    val flag: String,
     val location: String,
     val discipline: String,
     val type: String,
